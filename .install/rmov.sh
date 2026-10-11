@@ -1,4 +1,4 @@
-function install::postins() {
+function install::rmov() {
     install::getinstall \
         "command rm -rf ${opt}/${targetins}" \
         "Removing old source..."
@@ -6,4 +6,4 @@ function install::postins() {
     install::getinstall \
         "command mv ${root} ${opt}/${targetins}" \
         "Moving: ${color_GG}${root} ${color_DG}-> ${color_GG}${opt}/${targetins}${color_N}"
-}; readonly -f install::postins
+}; readonly -f install::rmov
