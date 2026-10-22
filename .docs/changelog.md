@@ -9,3 +9,8 @@
 ```text
 1. Added logic so that the --uwu output is fixed as "(・ω・)" instead of being random.
 ```
+
+### 2026-10-21
+```text
+1. Added 65 new color themes to style/theme, bringing the total to 179.
+```
